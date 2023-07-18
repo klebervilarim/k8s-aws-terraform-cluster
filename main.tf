@@ -22,6 +22,6 @@ module "k8s-cluster" {
   PATH_TO_PUBLIC_LB_KEY  = var.PATH_TO_PUBLIC_LB_KEY
   install_nginx_ingress  = true
   install_longhorn       = true
-  source                 = "github.com/klebervilarim/k8s-aws-terraform-cluster"
+  source                 = "github.com/garutilorenzo/k8s-aws-terraform-cluster"
 }
 
