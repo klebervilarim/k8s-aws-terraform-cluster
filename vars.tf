@@ -52,7 +52,7 @@ variable "iam_role_name" {
 
 variable "ami" {
   type    = string
-  default = "ami-0a2616929f1e63d91"
+  default = "ami-06ca3ca175f37dd66"
 }
 
 variable "default_instance_type" {
